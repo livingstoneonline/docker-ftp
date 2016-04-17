@@ -1,0 +1,6 @@
+[template]
+src = "vsftpd.conf.tmpl"
+dest = "/etc/vsftpd.conf"
+prefix= "/ftp"
+mode="0755"
+keys = ["/ip"]
