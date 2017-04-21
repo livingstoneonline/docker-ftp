@@ -1,4 +1,4 @@
-FROM livingstoneonline/base
+FROM livingstoneonline/base:ubuntu
 MAINTAINER Nigel Banks <nigel.g.banks@gmail.com>
 
 RUN apt-install vsftpd && \
